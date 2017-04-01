@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/html":{"create":"true","mount_options":["dmode=755","fmode=644"],"guestpath":"/var/www/html","hostpath":"/Users/rinteq/Vagrant/itwalker.com/wordpress","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/rinteq/Vagrant/itwalker.com","disabled":false,"__vagrantfile":true}}}
