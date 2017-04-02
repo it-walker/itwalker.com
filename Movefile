@@ -18,15 +18,15 @@ local:
   #   languages: "wp-content/languages"
 
 production:
-  vhost: "http://example.com"
-  wordpress_path: "/var/www/your_site" # use an absolute path here
+  vhost: "http://rinteq.com/fupoppo"
+  wordpress_path: "/var/www/html/fupoppo" # use an absolute path here
 
   database:
-    name: "database_name"
-    user: "user"
-    password: "password"
-    host: "host"
-    port: "3308" # Use just in case you have exotic server config
+    name: "wordpress"
+    user: "root"
+    password: "yuki0609"
+  #  host: "rinteq.com"
+    port: "3306" # Use just in case you have exotic server config
     mysqldump_options: "--max_allowed_packet=50MB" # Only available if using SSH
 
   exclude:
@@ -41,7 +41,7 @@ production:
     - "wp-content/*.sql"
 
   ssh:
-    host: "host"
-    user: "user"
+    host: "rinteq.com"
+    user: "hiroki"
     port: 22
     rsync_options: --verbose
